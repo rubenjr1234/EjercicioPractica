@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6c5c5;
+}
+
+header {
+    background-color: #553333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+article {
+    background-color: #ece2e2;
+
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+.Sueter{
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #666;
+}
+article button {
+    background-color: #527c53;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
